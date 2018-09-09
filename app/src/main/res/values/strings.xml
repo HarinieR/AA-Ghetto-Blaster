@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AAGhettoBlaster</string>
+
+    <string-array name="movieNames">
+        <item>Gangothri</item>
+        <item>Badrinath</item>
+        <item>Iddarammayilatho</item>
+        <item>Julayi</item>
+        <item>Race Gurram</item>
+        <item>Arya</item>
+        <item>Arya 2</item>
+        <item>S/O Satyamurthy</item>
+    </string-array>
 </resources>
