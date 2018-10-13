@@ -25,11 +25,10 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         mDataset = myDataset;
     }
 
-    @NonNull
     @Override
     public MyAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.movie_names, parent, false);
+                .inflate(R.layout.show_movies, parent, false);
         return new MyViewHolder(view);
     }
 
